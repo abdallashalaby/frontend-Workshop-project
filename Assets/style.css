@@ -84,3 +84,37 @@
 .menu .left {
     padding-top: 15px;
 }
+
+.mega_menu {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.mega_menu .categories {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+
+.mega_menu .categories a {
+    text-decoration: none;
+    color: white;
+}
+
+.mega_menu .categories .content a {
+    text-decoration: none;
+    color: black;
+}
+
+#cat {
+    width: 40%;
+    height: 100%;
+}
+
+.dd_right {
+    color: black;
+    position: absolute;
+    margin-left: 100%;
+}
