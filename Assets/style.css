@@ -1,0 +1,86 @@
+.dropbtn {
+    /* color: white; */
+    padding-left: 20px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #f1f1f1; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: white;
+}
+
+.max {
+    color: white;
+    background-color: rgb(50, 120, 50);
+    /* height: 30px; */
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-left {
+    float: left;
+}
+
+.top-right {
+    float: right;
+}
+
+.menu {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.menu .cart,
+.menu .account {
+    cursor: pointer;
+    text-align: left;
+    font-size: small;
+    margin-right: 50px;
+}
+
+.menu img {
+    height: 70px;
+    width: 150px;
+    margin-top: -20px;
+}
+
+.menu .right,
+.menu .left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .left {
+    padding-top: 15px;
+}
